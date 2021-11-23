@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.photo{
+  min-height: 360px;
+  height: 360px;
+}
+.no-shadow{
+  box-shadow: none !important;
+}
+.card-header{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 16px 48px 16px;
+    margin-bottom: 8px;
+    height: 16px;
+    align-items:flex-start;
+}
+.card-header .title{
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.card-header .title-id{
+  text-align: left;
+  color: #888;
+}
+
+.grass{
+  background-color: #eaffee !important;
+}
+.poison{
+  background-color: #f8ccff !important;
+}
+.fire{
+  background-color: #ffc4c4 !important;
+}
+.water{
+  background-color: #b4d5f6 !important;
+}
+.bug{
+  background-color: #facda9 !important;
+}
+.normal{
+  background-color: #f8f6f6 !important;
+}
